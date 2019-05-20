@@ -2,6 +2,7 @@
   "name": "random-quote",
   "version": "0.1.0",
   "private": true,
+  "homepage": "",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -27,5 +28,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "corber": "1.3.11",
+    "corber-webpack-plugin": "^1.0.0"
   }
 }
