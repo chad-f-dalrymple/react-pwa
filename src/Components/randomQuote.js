@@ -1,6 +1,6 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import './randomquote.css';
+import './randomquote.scss';
 
 export default class RandomQuote extends React.Component {
   // static propTypes = {
@@ -23,9 +23,11 @@ export default class RandomQuote extends React.Component {
     ];
 
     return (
-      <div className={this.className}>
-        <button onClick={this.generateQuote} className={className} />
-        <p className="quote"></p>
+      <div className="quote-wrapper">
+        <button onClick={this.generateQuote} className={className}>Generate Quote</button>
+        <span>
+          <p className="quote"></p>
+        </span>
       </div>
     );
   }
