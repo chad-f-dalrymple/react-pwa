@@ -1,0 +1,10 @@
+.quote-generator {
+  height: 75px;
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  width: 240px;
+}
+
+.quote {
+  margin: 0 auto;
+}
