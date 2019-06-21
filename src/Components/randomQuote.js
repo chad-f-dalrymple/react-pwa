@@ -1,11 +1,7 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import './randomquote.scss';
 
 export default class RandomQuote extends React.Component {
-  // static propTypes = {
-  //   quote: PropTypes.string
-  // };
 
   generateQuote() {
     fetch('https://api.kanye.rest').then(response => {
