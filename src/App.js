@@ -1,15 +1,15 @@
 import React from 'react';
-import Button from './Components/randomQuote';
+import RandomQuote from './Components/randomQuote';
 import './App.scss';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Button>Hi</Button>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+export default class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <RandomQuote />
+        </header>
+      </div>
+    );
+  };
+};
